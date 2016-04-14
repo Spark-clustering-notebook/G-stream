@@ -12,3 +12,7 @@ libraryDependencies ++= Seq(
  "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided"
 )
 
+bintrayOrganization := Some("spark-clustering-notebook")
+
+bintrayEnsureLicenses := false
+
